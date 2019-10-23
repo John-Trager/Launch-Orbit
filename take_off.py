@@ -1,5 +1,5 @@
 '''
-Rocket Launch Sim
+Rocket Launch Sim (for escape velocity)
 '''
 
 
@@ -61,7 +61,6 @@ while t < 1000 * T_circ:
     rocket.pos = rocket.pos + v*dt
     r = rocket.pos - Earth.pos
     t += dt
-    #print("r-hat: {} r: {} t: {}".format(mag(r),r,t))
     
     if (t > dt and mag(r) < R + e):
         break

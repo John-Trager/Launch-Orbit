@@ -1,8 +1,5 @@
 '''
-Notes:
--h needs to be in meters for v0 calc
--full orbit not calibrated
-
+Simulates a point orbiting around Earth
 '''
 
 
@@ -62,10 +59,3 @@ while t < 15 * T_circ:
     rocket.pos = rocket.pos + v*dt
     r = rocket.pos - Earth.pos
     t += dt
-
-    #collect data
-    #data_vt += [[t,v.y]]
-
-#with open('orbit_1.csv', 'w') as f:
-#    f.write(str(data_vt))
-#print(data_vt)
