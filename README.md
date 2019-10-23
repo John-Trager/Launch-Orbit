@@ -1,5 +1,5 @@
-# Rocket_Lauch-Orbit
- Physics simulations proof of concept of orbiting, escape velocity, and different Lauches
+# Rocket_Launch/Orbit
+ Physics simulations proof of concept for orbiting and escape velocity
 # Requirements
 * Vpython: https://vpython.org
 # Preview
